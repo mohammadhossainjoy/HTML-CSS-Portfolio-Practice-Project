@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+/*Nav ber css start*/
+.container {
+    padding: 40px;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 10%;
+    background-color: #fbfffd;
+    box-shadow: 5px 2px 30px 5px rgba(0, 0, 0, 0.2);
+}
+.nav-link ul{
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+    
+}
+.nav-link ul li a{
+    color: #2f485e;
+    font-weight: 500;
+}
+.nav-link ul li a:hover{
+     color: #a4b6ac;;
+}
+/*Nav ber css end*/
+
+
+
+/*Banner css end*/
+.banner{
+    display: grid;
+    grid-template-columns: 8fr 4fr;
+    align-items: center;
+    height: 95vh;
+    padding: 0% 10%;
+}
+.content h3{
+    font-size: 14px;
+    font-weight: 300;
+    background-color: #a4b6ac;
+    display: inline;
+    color: #fff;
+    padding: 3px 8px;
+    border-radius: 10px;
+    
+}
+.content p{
+    margin: 15px 0;
+    font-size: 14px;
+    font-weight: 300;
+    color: #2f485e;
+}
+.intro{
+    font-weight: 400;
+    font-size: 40px;
+    color: #2f485e;
+
+}
+.name{
+    font-weight:700px;
+    font-size: 60px;
+    color: #2f485e;
+}
+.resume{
+    padding: 15px 25px;
+    border-radius: 15px;
+    border: none;
+    background-color: #2f485e;
+    color: #fff;
+    font-weight: 600px;
+    font-size: 16px;
+    margin-top: 30px;
+}
+.resume:hover{
+    background-color: #a4b6ac;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+/*Banner css end*/
+
+
+/*About css Start*/
+.about{
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 2px 2px 25px 2px #ddd;
+    display: grid;
+    grid-template-columns: 7fr 5fr;
+    align-items: center;
+    padding: 0% 10%;
+    
+}
+.about-img img{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    height: 550px;
+    width: 550px;
+}
+
+.about-content h3{
+    font-size: 30px;
+    font-weight: 500;
+    color: #2f485e;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+.about-content p{
+    text-align: justify;
+    font-size: 18px;
+    border-left: 2px solid #a4b6ac;
+    padding-left: 15px;
+}
+.icons{
+    margin-top: 5px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+.icons a{
+    color: #fff;
+    background-color: #2f485e;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 50%;
+}
+.icons a:hover{
+    background-color:#a4b6ac;
+    transition: 0.3s;
+}
+/*About css end*/
+
+
+/*Technology css Start*/
+.technology{
+    padding: 0% 10%;
+ }
+.technology h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    color: #2f485e;
+    margin: 50px 0; 
+}
+.techs {
+    display: grid;
+    grid-template-columns: repeat(4, 3fr);
+    column-gap: 80px;
+    row-gap: 40px;
+}
+.techs img{
+    width: 200px;
+    height: 100px;
+  }
+.techs img:hover{
+    cursor: pointer;
+    transform: scale(0.9);
+    transition: 0.3s;
+} 
+   /*Technology css end*/
+
+
+   /*projects css start*/
+   .project{
+    margin: 30px 0;
+    padding: 3% 10%;
+    border-top: 1px solid #ddd;
+     border-bottom: 1px solid #ddd;
+    box-shadow: 2px 2px 25px 2px #ddd;
+   }
+   .project h2 {
+       text-align: center;
+       font-size: 50px;
+       font-weight: 500;
+       color: #2f485e;
+       margin: 50px 0;
+   }
+   .cards{
+    display: grid;
+    grid-template-columns: repeat(3,4fr);
+    column-gap: 20px;
+
+   }
+   .card{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 2px #dbdbdb;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+   }
+   .card img{
+    width: 400px;
+    border-radius: 10px;
+   }
+        .card img:hover{
+            transform: scale(1.01);
+            transition: 0.3s;
+        }
+        .card h3{
+            margin: 15px 0;
+            color: #2f485e;
+                font-weight: 500;
+                font-size: 20px;
+        }
+        .card p{
+            font-weight: 400;
+                margin-bottom: 15px;
+                color: #2f485e;
+        }
+   /*projects css end*/
+
+
+   /*contact css start*/
+   .contact-sec {
+       background-color: #f4f0f0;
+       box-shadow: 2px 2px 25px 2px #ddd;
+       margin-bottom: 50px;
+       margin-top: 50px;
+       padding: 2% 0%;
+   }
+   .contact {
+       background-color: #fefefe;
+    
+       width:45vw;
+       margin-left: auto;
+       margin-right: auto;
+       padding-bottom: 50px;
+       padding-bottom: 50px;
+       border: 1px solid #2f485e;
+       border-radius: 10px;
+
+   }
+   .contact h2 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+    color: #2f485e;
+    margin: 50px 0;
+}
+.contact-form{
+    display: flex ;
+flex-direction: column;  
+width: 60vh;
+margin-left: auto;
+margin-right: auto;  
+row-gap: 10px;
+}
+.fileds{
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: 2px solid #2f485e;
+}
+.contact-form button{
+    padding: 15px 25px;
+        border-radius: 15px;
+        border: none;
+        background-color: #2f485e;
+        color: #fff;
+        font-weight: 600px;
+        font-size: 16px;
+        margin-top: 30px;
+}
+.contact-form button:hover {
+    background-color: #a4b6ac;
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+   /*contact css end*/
+
+   /*footer css start*/
+
+   footer p {
+       text-align: center;
+       margin-top: 25px;
+       margin-bottom: 25px;
+        font-size: 20px;
+            font-weight: 400;
+            color: #2f485e;
+        
+   }
+   /*footer css end*/
